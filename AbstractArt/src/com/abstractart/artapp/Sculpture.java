@@ -11,10 +11,12 @@ public class Sculpture extends Art {
 	}
 	@Override
 	public void viewArt() {
+		System.out.println("*****************************************************");
 		System.out.println("Title: "+this.getTitle());
 		System.out.println("Author: "+this.getAuthor());
 		System.out.println("Desc: "+this.getDescription());
 		System.out.println("Material: "+this.getMaterial());
+		System.out.println("*****************************************************");
 
 	}
 

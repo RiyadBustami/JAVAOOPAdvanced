@@ -9,8 +9,12 @@ public class Test {
 		paint1.viewArt();
 		paint2.viewArt();
 		paint3.viewArt();
-		Sculpture sculpture1=new Sculpture(null, null, null, null);
-		Sculpture sculpture2=new Sculpture(null, null, null, null);
+		
+		
+		Sculpture sculpture1=new Sculpture("Singing Ringing Tree", "Mike Tonkin", "Completed in 2006, the Singing Ringing Tree is a 10-foot-tall sculpture meant to resemble the shape and grace of an actual tree.", "Wood");
+		Sculpture sculpture2=new Sculpture("Bridge Over Tree", "Siah Armajani", "Located in New York’s Brooklyn Bridge Park", "Concrete");
+		sculpture1.viewArt();
+		sculpture2.viewArt();
 
 	}
 
